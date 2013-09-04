@@ -46,6 +46,15 @@ img{
   font-size: 1.125em;
 }
 
+.footer .undecorated{
+  color: #e02323;
+}
+
+.footer :hover .undecorated{
+  color: #e02323;
+}
+
+
 .introduction h4{
   font-size: 1.725em;
 }
@@ -109,8 +118,6 @@ img{
   color:#e02323;
 }
 
-
-
 .to-hover :hover .shadowless{
           box-shadow: -0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
      -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
@@ -130,9 +137,4 @@ img{
 
 #render-dudes{
   background-color: #e02323;
-}
-
-/** lol is a class for testing only. That's why is placed at the bottom **/
-.lol{
-  
 }
