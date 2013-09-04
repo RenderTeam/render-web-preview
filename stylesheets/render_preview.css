@@ -1,0 +1,138 @@
+body{
+  background-image: url(../images/pixel_weave.png);
+}
+
+code{
+  background-color: white;
+  color:#e02323;
+}
+
+img{
+  width: 100%;
+}
+
+.edge{
+  background-color: #E96060;
+  border-width: 0px 0px 1px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1030;
+}
+
+.dialogue{
+  color: white;
+  font-size: 1.425em;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+.founder{
+  padding:1em;
+}
+
+.founder img{
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  height: 52.5%;
+  max-height: 300px;
+  max-width: 300px;
+  width: 52.5%;
+}
+
+.footer{
+  padding-top: 0.5em;
+  font-size: 1.125em;
+}
+
+.introduction h4{
+  font-size: 1.725em;
+}
+
+.introduction .highlight{
+  color: #e12c2c;
+}
+
+.logo-container{
+  float: none;
+  margin: auto;
+  margin-top: 1.725em;
+}
+
+
+/* Override bootstrap 50px .navbar min-height  */
+.navbar{
+  min-height: 7px;
+}
+
+.render{
+  font-weight: bolder;
+}
+
+.renderers{
+  margin-top: 3em;
+}
+
+.prologue h3{
+  font-size: 1.725em;
+}
+
+.slogan{
+  font-style: italic;
+  font-size: 2.725em;
+}
+
+.to-hover :hover{
+  color: #e02323;
+  background-image: url(../images/vichy.png);
+          border-radius: 5.5%;
+     -moz-border-radius: 5.5%;
+  -webkit-border-radius: 5.5%;
+          box-shadow: -1.5px 3.5px 10px 3px rgba(0, 0, 0, 0.3) inset;
+     -moz-box-shadow: -1.5px 3.5px 10px 3px rgba(0, 0, 0, 0.3) inset;
+  -webkit-box-shadow: -1.5px 3.5px 10px 3px rgba(0, 0, 0, 0.3) inset;
+}
+
+.to-hover :hover img{
+  border-color: #e02323;
+          border-radius: 50%; /** overrides border-radius inheritance**/
+     -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.to-hover .undecorated{
+  color: white;
+}
+
+.to-hover :hover .undecorated{
+  color:#e02323;
+}
+
+
+
+.to-hover :hover .shadowless{
+          box-shadow: -0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
+     -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
+}
+
+
+#content{
+  background-color: #33342D;
+  color: white;
+}
+
+#content .prologue{
+  font-weight: bold;
+  padding-bottom: 0.625em;
+}
+
+#render-dudes{
+  background-color: #e02323;
+}
+
+/** lol is a class for testing only. That's why is placed at the bottom **/
+.lol{
+  
+}
