@@ -1,3 +1,7 @@
+a:hover{
+  text-decoration: none;
+}
+
 body{
   background-image: url(../images/pixel_weave.png);
 }
@@ -90,6 +94,10 @@ img{
 .slogan{
   font-style: italic;
   font-size: 2.725em;
+}
+
+.to-hover a{
+  font-weight: bold;
 }
 
 .to-hover :hover{
